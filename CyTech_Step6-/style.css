@@ -1,0 +1,89 @@
+/* ページ全体 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 全体の枠 */
+.container {
+    width: 90%;
+    margin: 100px auto 0;
+}
+
+/* ヘッダー */
+header {
+    height: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+/* メイン部分 */
+.main {
+    display: flex;
+    min-height: 253px;
+}
+
+/* 左側メニュー */
+aside {
+    width: 210px;
+    background-color: #66e6c4;
+    padding: 50px 10px;
+}
+
+aside ul {
+    margin: 0;
+}
+
+/* 右側 */
+.content {
+    flex: 1;
+    background-color: #fff0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 確認テーブル */
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+th {
+    width: 100px;
+}
+
+/* ボタン */
+.buttons {
+    position: absolute;
+    right: 8px;
+    margin-top: 200px;
+}
+
+.buttons button {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* フッター */
+footer {
+    height: 58px;
+    background-color: lightgray;
+}
